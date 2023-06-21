@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(41,41,96,1) 35%, rgba(0,255,248,1) 100%);
+    color: white;
+    background-size: 500% 500%;
+    animation: BG 3s linear infinite; 
+}
+@keyframes BG{
+    0%{
+        background-position: 0%;
+    }
+    50%{
+        background-position: 100%;
+    }
+    100%{
+        background-position: 0%;
+
+    }
+}
+.container{
+    font-size: 100px;
+    border: 2px solid white;
+    width:50vw;
+    text-align: center;
+    position: relative;
+    top:200px;
+    left:350px;
+    user-select: none;
+    
+
+}
+#ampm{
+    font-size: 50px;
+}
